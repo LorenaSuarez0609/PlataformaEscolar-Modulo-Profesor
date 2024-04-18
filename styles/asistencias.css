@@ -1,0 +1,50 @@
+
+/*tabla de asistencias*/
+
+.container-asistencias {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla-asistencias table {
+    color:black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    }
+
+.tabla-asistencias thead {
+    background: rgb(200, 195, 195);
+}
+
+.tabla-asistencias th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tabla-asistencias td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+.tabla-asistencias tbody tr {
+    cursor: pointer;
+}
+
+.tabla-asistencias tbody tr:hover {
+    background: wheat;
+}
+
+@media (max-width: 800px) {
+    .container-asistencias {
+       width: 100%;
+       font-size: 8px;
+    }
+   
+}

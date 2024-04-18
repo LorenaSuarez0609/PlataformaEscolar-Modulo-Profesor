@@ -1,12 +1,14 @@
 .titulo-material{
     background: #07889b;
     text-align: center;
-    width: 120%;
+    width: 80vw;
+    height: 10vh;
 }
 
 .card-img-top{
-    width: 0.5rem;
-    /*height: 4rem;*/
+    padding: 8px;
+    width: 6rem;
+    height: 10rem;
 }
 .container-card-tutorials{
     justify-content: center;
@@ -14,17 +16,27 @@
 }
 .card-flex{
     display: flex;
-    flex-direction: wrap;
+    
 }
 .card-flex > div{
     flex:50%;
-    margin: 20px;
-    padding: 40px;
+    margin: 10px;
+    padding: 2px;
 }
 
 @media (max-width: 800px) {
-    .flex-flex {
+    .card-flex {
         flex: 100%;
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-title{
+        font-size:10px;
+    }
+    .card-body a{
+        font-size:8px;
+    }
+    .card-img-top img{
+        width: 4rem;
+        /*height: 4rem;*/
     }
 }

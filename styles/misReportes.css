@@ -1,10 +1,16 @@
-
 .container-report{
     width: 95%;
     align-items: center;
+    padding: 10px;
 }
-.img-evaluaciones{
-    width: 90%;
-    height: 90%;
-    align-items: center;
+.img-evaluaciones img{
+    width: 100%;
+    text-align: center;
+}
+
+.misDatos {
+    background: #07889b;
+    text-align: center;
+    width: 80vw;
+    height: 10vh;
 }

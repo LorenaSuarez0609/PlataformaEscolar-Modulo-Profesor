@@ -1,9 +1,9 @@
-.misDatos{
-    background: #07889b;
-    text-align: center;
-    width: 80vw;
-    height: 5vh;
+.misDatos {
+  background: #07889b;
+  text-align: center;
+  width: 80vw;
+  height: 10vh;
 }
-.needs-validation{
-    width: 70vw
+.needs-validation {
+  width: 100%;
 }
